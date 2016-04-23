@@ -7,12 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "composeItemViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)add:(id)sender {
+    composeItemViewController *composeItemVC = [[composeItemViewController alloc] init];
+    
+    [self presentViewController:composeItemVC animated:YES completion:nil];
+    
+    
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "welcomeView.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    
+    ViewController *vc = [storyboard instantiateInitialViewController];
+
+    self.window.rootViewController = vc;
+    
+    [self.window makeKeyAndVisible];
+    
+    welcomeView *welcomeV = [welcomeView welcomeView];
+
+    [self.window addSubview:welcomeV];
+    
+    welcomeV.frame = self.window.bounds;
+    
     return YES;
 }
 

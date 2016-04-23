@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BAB7C251CC9D68000EEDE50 /* welcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAB7C241CC9D68000EEDE50 /* welcomeView.m */; };
+		6BAB7C271CC9D69E00EEDE50 /* welcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAB7C261CC9D69E00EEDE50 /* welcomeView.xib */; };
+		6BAB7C321CCA48CE00EEDE50 /* composeItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAB7C311CCA48CE00EEDE50 /* composeItemViewController.m */; };
+		6BAB7C351CCA4A5700EEDE50 /* ItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAB7C341CCA4A5700EEDE50 /* ItemButton.m */; };
+		6BAB7C381CCA550600EEDE50 /* ManuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAB7C371CCA550600EEDE50 /* ManuItemButton.m */; };
 		6BCB18D11CC8FCEE007A5C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB18D01CC8FCEE007A5C41 /* main.m */; };
 		6BCB18D41CC8FCEE007A5C41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB18D31CC8FCEE007A5C41 /* AppDelegate.m */; };
 		6BCB18D71CC8FCEE007A5C41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB18D61CC8FCEE007A5C41 /* ViewController.m */; };
@@ -27,6 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BAB7C231CC9D68000EEDE50 /* welcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = welcomeView.h; sourceTree = "<group>"; };
+		6BAB7C241CC9D68000EEDE50 /* welcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = welcomeView.m; sourceTree = "<group>"; };
+		6BAB7C261CC9D69E00EEDE50 /* welcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = welcomeView.xib; sourceTree = "<group>"; };
+		6BAB7C301CCA48CE00EEDE50 /* composeItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composeItemViewController.h; sourceTree = "<group>"; };
+		6BAB7C311CCA48CE00EEDE50 /* composeItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = composeItemViewController.m; sourceTree = "<group>"; };
+		6BAB7C331CCA4A5700EEDE50 /* ItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemButton.h; sourceTree = "<group>"; };
+		6BAB7C341CCA4A5700EEDE50 /* ItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemButton.m; sourceTree = "<group>"; };
+		6BAB7C361CCA550600EEDE50 /* ManuItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManuItemButton.h; sourceTree = "<group>"; };
+		6BAB7C371CCA550600EEDE50 /* ManuItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManuItemButton.m; sourceTree = "<group>"; };
 		6BCB18CB1CC8FCEE007A5C41 /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCB18CF1CC8FCEE007A5C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BCB18D01CC8FCEE007A5C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,8 +97,17 @@
 			children = (
 				6BCB18D21CC8FCEE007A5C41 /* AppDelegate.h */,
 				6BCB18D31CC8FCEE007A5C41 /* AppDelegate.m */,
+				6BAB7C231CC9D68000EEDE50 /* welcomeView.h */,
+				6BAB7C241CC9D68000EEDE50 /* welcomeView.m */,
+				6BAB7C261CC9D69E00EEDE50 /* welcomeView.xib */,
 				6BCB18D51CC8FCEE007A5C41 /* ViewController.h */,
 				6BCB18D61CC8FCEE007A5C41 /* ViewController.m */,
+				6BAB7C301CCA48CE00EEDE50 /* composeItemViewController.h */,
+				6BAB7C311CCA48CE00EEDE50 /* composeItemViewController.m */,
+				6BAB7C331CCA4A5700EEDE50 /* ItemButton.h */,
+				6BAB7C341CCA4A5700EEDE50 /* ItemButton.m */,
+				6BAB7C361CCA550600EEDE50 /* ManuItemButton.h */,
+				6BAB7C371CCA550600EEDE50 /* ManuItemButton.m */,
 				6BCB18D81CC8FCEE007A5C41 /* Main.storyboard */,
 				6BCB18DB1CC8FCEE007A5C41 /* Images.xcassets */,
 				6BCB18DD1CC8FCEE007A5C41 /* LaunchScreen.xib */,
@@ -199,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAB7C271CC9D69E00EEDE50 /* welcomeView.xib in Resources */,
 				6BCB18DA1CC8FCEE007A5C41 /* Main.storyboard in Resources */,
 				6BCB18DF1CC8FCEE007A5C41 /* LaunchScreen.xib in Resources */,
 				6BCB18DC1CC8FCEE007A5C41 /* Images.xcassets in Resources */,
@@ -219,9 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAB7C381CCA550600EEDE50 /* ManuItemButton.m in Sources */,
+				6BAB7C321CCA48CE00EEDE50 /* composeItemViewController.m in Sources */,
 				6BCB18D71CC8FCEE007A5C41 /* ViewController.m in Sources */,
 				6BCB18D41CC8FCEE007A5C41 /* AppDelegate.m in Sources */,
 				6BCB18D11CC8FCEE007A5C41 /* main.m in Sources */,
+				6BAB7C351CCA4A5700EEDE50 /* ItemButton.m in Sources */,
+				6BAB7C251CC9D68000EEDE50 /* welcomeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +444,7 @@
 				6BCB18F01CC8FCEE007A5C41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BCB18F11CC8FCEE007A5C41 /* Build configuration list for PBXNativeTarget "微博Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +453,7 @@
 				6BCB18F31CC8FCEE007A5C41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
